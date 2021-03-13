@@ -1,0 +1,37 @@
+html, body {
+    background: #000;
+    color: #d8d8d8;
+    font: 11pt sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p.evtext {
+    font-style: italic;
+}
+
+div.econtainer {
+    background-color: #181818;
+    margin: 40px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: 1px dotted #282828;
+
+    div.header {
+        font-family: monospace;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #383838;
+        padding-bottom: 20px;
+
+        div.where > span {
+            background-color: #282828;
+            border-radius: 5px;
+            padding: 3px 5px;
+            margin: 0 5px;
+        }
+    }
+}

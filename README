@@ -1,0 +1,3 @@
+tuffle: the unified fast FTL lookup engine
+
+requires ftldata directory in root of project
